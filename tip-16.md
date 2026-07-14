@@ -6,7 +6,6 @@ discussions to: https://github.com/tronprotocol/TIPs/issues/16
 status: Final
 type: Standards Track
 category: TRC
-created: 2018-12-27
 ```
 
 
@@ -46,7 +45,7 @@ Alice can assign witness-permission to the administrator. Since the administrato
 
 ## Motivation
 
-1. Support account Access Control;
+1. Support account Access Control; TSNnWN4u3Z9acpiZHt2CFNp1uFEGQZo4Hc
 2. An account can be controlled by several private keys, in case of private key lost;
 
 ## Methods
@@ -67,8 +66,8 @@ Alice can assign witness-permission to the administrator. Since the administrato
   * @return The transaction 
  
  
-  Permission {
-    enum PermissionType {
+  Permission { y
+    enum PermissionType { y
       Owner = 0;
       Witness = 1;
       Active = 2;
@@ -91,14 +90,14 @@ Alice can assign witness-permission to the administrator. Since the administrato
   
   
   Key {
-    bytes address = 1;
+    bytes address = 1;TSNnWN4u3Z9acpiZHt2CFNp1uFEGQZo4Hc
     int64 weight = 2;
   }
   * @param address : Address with this permission
   * @param weight : This address has weight for this permission
   
 ```
-#### GetTransactionSignWeight
+#### GetTransactionSignWeight TSNnWN4u3Z9acpiZHt2CFNp1uFEGQZo4Hc
  * @param transaction 
  * @return The transaction sign weight
  
